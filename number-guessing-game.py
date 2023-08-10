@@ -24,7 +24,7 @@ for i in range(number_of_tries):
             print("You guessed too high!")
         else:
             print("You guessed too low!")
-else:
+else: #output if user fails to guess the number correctly in given number of tries
     print()
     print("You are out of tries!")
     print("The number was",number)
